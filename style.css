@@ -2,28 +2,38 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 2px solid black; */
+    /* border: 2px solid rgb(250, 0, 0); */
 }
+
 .container {
     width: 100%;
 }
+
+/* **navbar** */
+
 nav {
     display: flex;
     background-color: black;
 }
+
 .logo {
     width: 40%;
     position: absolute;
     top: 0;
     left: 0;
 }
-img {
-    width: 100%;
+
+.logoimg {
+    width: 70%;
+    border-bottom-right-radius: 20px;
+    z-index: 1;
 }
+
 .menu {
-    width: 60%;
+    width: 100%;
     margin-left: 190px;
 }
+
 .menu-items {
     display: flex;
     flex-direction: column;
@@ -32,14 +42,17 @@ img {
     margin: 10px;
 
 }
+
 .menu-items:hover .list {
 
     display: block;
 
 }
+
 .menu-icon {
-    width: 30px;
+    width: 20px;
 }
+
 .list {
     background-color: black;
     padding: 10px;
@@ -48,16 +61,144 @@ img {
     right: 0px;
     display: none;
 }
+
 .list li a:hover {
     font-size: x-large;
 }
+
 .list li {
     list-style: none;
     margin-top: 10px;
 }
+
 .list li a {
     text-decoration: none;
     color: red;
     font-size: larger;
     padding: 5px;
+    font-weight: bold;
+
+}
+
+/* **hero section mobile** */
+
+.herosection {
+    height: 100vh;
+    background-image: url(/image/herosection.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+
+}
+
+.herotext {
+    padding-top: 170px;
+    padding-left: 40px;
+
+}
+
+.heroh1 {
+    color: aliceblue;
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.heroh1span {
+    color: red;
+}
+
+.herop1 {
+    color: whitesmoke;
+    margin-top: 10px;
+    font-size: large;
+}
+
+.herobutton {
+    padding: 15px;
+    background-color: red;
+    color: aliceblue;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* ********tabelet view view************** */
+
+@media (min-width:768px) {
+
+
+    /* **navbar** */
+
+    .menu-icon {
+        display: none;
+    }
+
+    .list {
+        display: block;
+        display: flex !important;
+        position: static;
+    }
+
+    .list li a {
+        font-weight: bold;
+    }
+
+    .logoimg {
+        width: 80%;
+    }
+
+    /* ****hero section tablet**** */
+
+    .herosection {
+
+        justify-content: start;
+
+    }
+
+    .herotext {
+        padding-top: 0px;
+
+    }
+
+    .heroh1 {
+        font-size: 100px;
+    }
+
+    .herop1 {
+        font-size: xx-large;
+    }
+
+    .herobutton {
+        padding: 25px;
+        background-color: red;
+        font-size: xx-large;
+        margin-top: 40px;
+        align-self: self-start;
+    }
+}
+
+/* ********laptop view **************** */
+
+@media (min-width:1024px) {
+
+    /* **navbar** */
+
+    .list li a {
+        margin-right: 80px;
+        font-weight: bold;
+        font-size: larger;
+    }
+
+    .logoimg {
+        width: 30%;
+    }
+
+     
+
 }
