@@ -1,0 +1,167 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   /* border: 2px solid red; */
+}
+
+.container{
+    width: 100%;
+    
+    background-color: black;
+}
+
+/* ****Mobile view**** */
+.headh3{
+    color: red;
+    text-align: center;
+    padding-top: 10px;
+    
+}
+.headh1{
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 10px;
+}
+.headp{
+    color: rgba(245, 245, 245, 0.76);
+    text-align: center;
+    padding-top: 10px;
+}
+.cart{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.strengthstart{
+    width: 40%;
+}
+.strength{
+    background-image: url(/experties/images/experties.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px solid rgba(128, 128, 128, 0.377);
+    padding: 10px;
+    margin-top: 10px;
+
+}
+i{
+    color: red;
+    font-size: 30px;
+}
+.strengthhead{
+  color: white;
+  padding-top: 10px;
+}
+.line{
+    width: 40%;
+    background-color: red;
+    height: 3px;
+    margin-top: 10px;
+}
+.strengthpara{
+     color: rgba(245, 245, 245, 0.76);
+     padding-top: 10px;
+}
+.weightloss{
+    background-image: url(/experties/images/weight\ loss.png);
+}
+.crossfit{
+    background-image: url(/experties/images/crossfit.png);
+}
+.cardio{
+    background-image: url(/experties/images/cardio.png);
+}
+.nutrition{
+    background-image: url(/experties/images/nutriton\ guidance.png);
+}
+.personal{
+    background-image: url(/experties/images/personal\ traner.png);
+}
+
+button{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.btn{
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+/* ****tablet view**** */
+@media (min-width:768px) and (max-width: 1023px){
+    .cart{
+        justify-content: center;
+        align-items: center;
+    }
+    .strength{
+        width: 100%;
+        padding: 40px;
+    }
+    button{
+        padding: 13px;
+        padding-left: 115px;
+        padding-right: 115px;
+        font-size: 30px;
+        border-radius: 20px;
+    }
+    button:hover{
+        background-color: aliceblue;
+        color: red;
+        border-radius: 30px;
+
+    }
+}
+
+/* ****laptop view**** */
+
+@media (min-width:1024px){
+
+    .container{
+    height: 100vh;
+   }
+
+  .carttop{
+    width: 100%;
+    display: flex;
+  }
+  .cartend{
+    width: 100%;
+    display: flex;
+  }
+
+  
+   
+    .strength{
+        margin: 2px;
+    }
+    .headh3{
+        padding-top: 20px;
+        font-size: x-large;
+    }
+    .headh1{
+        padding-top: 20px;
+        
+    }
+     .strength{
+        padding: 20px;
+    }
+    button{
+        padding-left: 50px;
+        padding-right: 50px;
+        font-size: larger;
+
+    }
+    button:hover{
+        background-color: rgb(255, 255, 255);
+        color: red;
+    }
+
+}
