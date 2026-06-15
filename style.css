@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 2px solid rgb(250, 0, 0); */
+    /* border: 0.5px solid rgb(250, 0, 0); */
 }
 
 .container {
     width: 100%;
+    background-color: rgb(0, 0, 0);
 }
 
 /* **navbar mobile** */
@@ -14,6 +15,8 @@
 nav {
     display: flex;
     background-color: black;
+
+
 }
 
 .logo {
@@ -33,6 +36,7 @@ nav {
 .menu {
     width: 100%;
     margin-left: 190px;
+
 }
 
 .menu-items {
@@ -137,14 +141,16 @@ i {
 
 .ourexperties {
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.911);
+    background-color: rgba(0, 0, 0, 0.877);
     display: flex;
     justify-content: space-around;
+
+
 }
 
 .a {
-    background-color: rgba(0, 0, 0, 0.959);
-    color: white;
+
+    color: rgb(255, 255, 255);
     width: 33%;
     display: flex;
     flex-direction: column;
@@ -157,7 +163,6 @@ i {
 
 .b {
     margin-bottom: 20px;
-    margin-top: 5px;
     font-size: 20px;
 
 }
@@ -165,7 +170,432 @@ i {
 
 .p {
     display: none;
+    margin-left: 10px;
 }
+
+.modern {
+    border-right: 3px solid rgba(161, 159, 159, 0.164);
+}
+
+.expert {
+    border-right: 3px solid rgba(161, 159, 159, 0.164);
+}
+
+
+/* *****about us****** */
+
+.aboutus {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.877);
+    padding: 10px;
+
+
+}
+
+.abouthead {
+    display: flex;
+}
+
+.aboutusp {
+    color: red;
+}
+
+.aboutline {
+    width: 35px;
+    height: 1px;
+    background-color: red;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.aboutush2 {
+    color: white;
+    padding-top: 10px;
+}
+
+.lives {
+    color: red;
+}
+
+.aboutusp2 {
+    color: whitesmoke;
+    padding-top: 10px;
+}
+
+.aboutusimage {
+    width: 100%;
+    margin-top: 15px;
+
+}
+
+.aboutusimg {
+    width: 100%;
+    padding: 3px;
+    border-radius: 10px;
+    border: 2px solid rgba(128, 128, 128, 0.377);
+}
+
+.aboutusdetail {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.detail {
+    width: 100%;
+    display: flex;
+
+    margin-bottom: 20px;
+}
+
+.aboutdetailstext {
+    margin-left: 15px;
+}
+
+.aboutdetailsparaone {
+    margin-top: 5px;
+    color: whitesmoke;
+}
+
+.aboutsvgone {
+    width: 30%;
+    border: 2px solid rgba(195, 201, 187, 0.267);
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutusdetailheadone {
+    color: white;
+}
+
+.aboutdetailsparaone {
+    color: whitesmoke;
+}
+
+.aboutuscount {
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+}
+
+.aboutuscountone {
+    border: 2px solid rgba(195, 201, 187, 0.267);
+    padding: 10px;
+
+}
+
+.aboutuscounthead {
+    color: white;
+}
+
+.aboutuscountpara {
+    color: whitesmoke;
+}
+
+.aboutusbtn {
+    padding: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: none;
+
+    display: block;
+    margin: 0 auto;
+
+
+}
+
+.aboutuslaptopview {
+    display: none;
+}
+
+
+/* ****membership**** */
+
+
+.membership {
+    width: 100%;
+
+}
+
+.membershiphead {
+    display: flex;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.877);
+}
+
+.membershipsp {
+    color: red;
+}
+
+.membershipline {
+    width: 35px;
+    height: 1px;
+    background-color: red;
+    margin-top: 8px;
+    margin-left: 10px;
+}
+
+.membershipplan {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.877);
+}
+
+.plan {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.877);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border: 2px solid rgba(0, 0, 0, 0.267);
+    margin-bottom: 10PX;
+    border-radius: 10PX;
+    /* border: 2px solid rgba(195, 201, 187, 0.267); */
+}
+
+.planhead {
+    color: white;
+    margin-bottom: 5px;
+
+}
+
+.planpara {
+    color: rgba(245, 245, 245, 0.801);
+    margin-bottom: 10px;
+}
+
+.memberline {
+    width: 40px;
+    border: 2px solid red;
+}
+
+.price {
+    display: flex;
+    margin-top: 10PX;
+}
+
+sup {
+    color: white;
+}
+
+.pricepara {
+    color: white;
+    font-size: 30px;
+}
+
+.pricepara {
+    color: red;
+}
+
+sub {
+    color: rgba(245, 245, 245, 0.445);
+    vertical-align: baseline;
+    font-size: 1rem;
+}
+
+.planbtn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.877)
+}
+
+.planbtntext {
+    color: aliceblue;
+    margin-top: 5px;
+    text-decoration: underline;
+
+}
+
+.planbutton {
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* ****footer**** */
+
+footer {
+    width: 100%;
+    border-top: 2px solid red;
+}
+
+.footer-top {
+    display: flex;
+    width: 100%;
+    background-color: black;
+    padding-top: 10px;
+}
+
+.footer-left {
+    display: none;
+}
+
+.footer-center {
+    padding: 10px;
+    width: 50%;
+}
+
+.footer-center-top {
+    margin-bottom: 10px;
+
+}
+
+.footerlogoimg {
+    border-radius: 10px;
+    width: 30%;
+}
+
+.footer-center-top-headline {
+    color: red;
+}
+
+.footer-line {
+    border: 2px solid red;
+    width: 30px;
+}
+
+.footer-center-bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-center-bottom-detail {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.footer-svg {
+    margin-bottom: 5px;
+    font-size: 20px;
+    width: 20px;
+}
+
+.footer-svg-text {
+    padding: 5px;
+    margin-left: 8px;
+    color: whitesmoke;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.footer-right {
+    width: 50%;
+    padding: 10px;
+}
+
+.footer-right-top {
+    margin-bottom: 10px;
+}
+
+.footer-right-top-headline {
+    color: red;
+}
+
+.footer-right-para {
+    color: white;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    border-top: 1PX solid rgb(255, 0, 0);
+}
+
+.footer-bottom-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom-svg {
+    margin-right: 10px;
+}
+
+.footer-bottom-left-head {
+    font-size: x-small;
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom-left-head-span {
+    color: red;
+    margin-top: 3px;
+}
+
+.footer-bottom-center {
+    color: gray;
+
+}
+
+.footer-bottom-right {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-bottom-right {
+    font-size: x-small;
+}
+
+.footer-bottom-right-head i {
+    color: white;
+}
+
+.footer-bottom-right-head-span {
+    color: red;
+}
+
+.footer-bottom-right-img {
+    height: 40px;
+    width: 40px;
+}
+
+.footer-bottom-center {
+    display: none;
+}
+
+.footer-bottom-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: gray;
+    padding-top: 5px;
+
+}
+
+
 
 /* ********tabelet view view************** */
 
@@ -222,9 +652,10 @@ i {
     }
 
     /* ****oue experties**** */
-    .b{
+    .b {
         font-size: 40px;
     }
+
     .h {
         font-size: 27px;
     }
@@ -235,8 +666,155 @@ i {
         color: rgba(240, 255, 255, 0.808);
         padding-top: 20px;
         line-height: 150%;
-        
+
     }
+
+    /* ****about us**** */
+
+    .aboutus {
+        padding: 20px;
+    }
+
+    .aboutush2 {
+        margin-top: 10px;
+    }
+
+    .aboutusp2 {
+        margin-top: 10px;
+    }
+
+    .aboutsvgonei {
+        font-size: x-large;
+    }
+
+    .abouttablettop {
+        display: flex;
+        width: 100%;
+    }
+
+    .abouttablebottom {
+        display: flex;
+        width: 100%;
+    }
+
+    .box1 {
+        width: 60%;
+    }
+
+    .aboutuscounti {
+        font-size: x-large;
+    }
+
+    .aboutuscounthead {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+
+    .aboutuscountpara {
+        margin-top: 10px;
+
+    }
+
+    .aboutuslaptopview {
+        display: none;
+    }
+
+    /* ****membership**** */
+
+    .membershipline {
+        display: none;
+
+    }
+
+    .plan {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .planbtntext {
+        color: rgba(240, 248, 255, 0.664);
+
+
+    }
+
+    .planbutton {
+        padding: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: red;
+        color: white;
+        border-radius: 10px;
+        border: none;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+
+
+    /* ****footer**** */
+
+
+    .footer-left {
+        display: block;
+    }
+
+    .footerlogo {
+        display: none;
+    }
+
+    .footer-center {
+        margin-left: 90px;
+        width: 33%;
+    }
+
+    .footer-center-top-headline {
+        font-size: larger;
+    }
+
+    .footer-center-bottom-detail {
+        margin-top: 15px;
+    }
+
+    .footer-right {
+        width: 33%;
+    }
+
+    .footer-right-top-headline {
+        font-size: larger;
+    }
+
+    .footer-right-contact-detail {
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .footer-right-para {
+        margin-left: 10px;
+    }
+
+    .footer-bottom {
+        padding-top: 20PX;
+
+    }
+
+    .footer-bottom-left-head {
+        font-size: larger;
+    }
+
+    .footer-bottom-right {
+        font-size: larger;
+    }
+
+    .footer-bottom-svg {
+        font-size: xx-large;
+        padding-left: 5px;
+    }
+
+    .footer-bottom-right-img {
+        height: 60px;
+        width: 90px;
+    }
+    
 
 }
 
@@ -261,6 +839,72 @@ i {
         padding: 15px;
         font-size: x-large;
     }
+
+    .aboutush2 {
+        font-size: 30px;
+        /* border: 2px solid red; */
+    }
+
+    .abouttablebottom {
+
+        flex-direction: column;
+    }
+
+    .aboutusdetail {
+        flex-direction: row;
+
+    }
+
+    .detail {
+        width: 33%;
+        margin-left: 5px;
+        margin-bottom: 20px;
+    }
+
+    .aboutuscount {
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .aboutuscount {
+        display: none;
+    }
+
+    .aboutuslaptopview {
+        width: 100%;
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .aboutuslaptopviewone {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid rgba(195, 201, 187, 0.267);
+        padding: 20px;
+    }
+
+    .aboutusbtn {
+        margin-top: 15px;
+    }
+    .footer-bottom-center{
+        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .footer-bottom-bottom{
+        display: none;
+    }
+
 
 
 
