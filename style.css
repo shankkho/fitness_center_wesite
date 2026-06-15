@@ -15,9 +15,9 @@
 nav {
     display: flex;
     background-color: black;
-
-
+      border: 2px solid rgb(255, 77, 7);
 }
+
 
 .logo {
     width: 40%;
@@ -31,6 +31,7 @@ nav {
     width: 70%;
     border-bottom-right-radius: 20px;
     z-index: 1;
+      border: 2px solid red;
 }
 
 .menu {
@@ -144,7 +145,7 @@ i {
     background-color: rgba(0, 0, 0, 0.877);
     display: flex;
     justify-content: space-around;
-
+  
 
 }
 
@@ -814,7 +815,7 @@ footer {
         height: 60px;
         width: 90px;
     }
-    
+
 
 }
 
@@ -834,12 +835,13 @@ footer {
         width: 30%;
     }
 
+    /* ****hero*** */
     .herobutton {
-
         padding: 15px;
         font-size: x-large;
     }
 
+    /* ****aboutus**** */
     .aboutush2 {
         font-size: 30px;
         /* border: 2px solid red; */
@@ -895,13 +897,16 @@ footer {
     .aboutusbtn {
         margin-top: 15px;
     }
-    .footer-bottom-center{
+
+    .footer-bottom-center {
         display: block;
         display: flex;
         justify-content: center;
         align-items: center;
     }
-    .footer-bottom-bottom{
+
+    /* ****footer**** */
+    .footer-bottom-bottom {
         display: none;
     }
 
