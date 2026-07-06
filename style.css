@@ -136,7 +136,9 @@ i {
     font-weight: bold;
     border-radius: 10px;
     margin-top: 20px;
+    border: none;
 }
+
 
 /* ****our experties**** */
 
@@ -651,10 +653,14 @@ footer {
         margin-top: 40px;
         align-self: self-start;
     }
+    button:hover{
+        background-color: white;
+        color: red;
+    }
 
     /* ****oue experties**** */
     .b {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .h {
@@ -683,6 +689,9 @@ footer {
     .aboutusp2 {
         margin-top: 10px;
     }
+    .aboutsvgone{
+        border: none;
+    }
 
     .aboutsvgonei {
         font-size: x-large;
@@ -697,9 +706,17 @@ footer {
         display: flex;
         width: 100%;
     }
+   
 
     .box1 {
-        width: 60%;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .box2{
+     width: 50%;
+    height: 100%;
     }
 
     .aboutuscounti {
@@ -816,6 +833,59 @@ footer {
         width: 90px;
     }
 
+    /*****/
+    .abouttablebottom {
+
+        flex-direction: column;
+    }
+
+    .aboutusdetail {
+        flex-direction: row;
+
+    }
+
+    .detail {
+        width: 33%;
+        margin-left: 5px;
+        margin-bottom: 20px;
+    }
+
+    .aboutuscount {
+        width: 100%;
+        display: flex;
+        padding: 10px;
+        justify-content: center;
+        text-align: center;
+
+    }
+
+    .aboutuscount {
+        display: none;
+    }
+
+    .aboutuslaptopview {
+        width: 100%;
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .aboutuslaptopviewone {
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 2px solid rgba(195, 201, 187, 0.267);
+        padding: 20px;
+    }
+
+    .aboutusbtn {
+        margin-top: 15px;
+    }
+
+
 
 }
 
@@ -839,6 +909,9 @@ footer {
     .herobutton {
         padding: 15px;
         font-size: x-large;
+    }
+    .b {
+        font-size: 25px;
     }
 
     /* ****aboutus**** */
