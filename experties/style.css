@@ -5,6 +5,10 @@
     /* border: 2px solid red; */
 
 }
+.btnstyle :focus{
+    color: red;
+    background-color: black;
+}
 
 .container {
     width: 100%;
@@ -192,6 +196,7 @@ button {
 
 .btn {
     text-align: center;
+    margin-bottom: 10px;
 
 }
 

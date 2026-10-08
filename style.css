@@ -4,6 +4,15 @@
     box-sizing: border-box;
     /* border: 0.5px solid rgb(250, 0, 0); */
 }
+/* all round */
+.btnstyle :focus{
+    color: red;
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
 
 .container {
     width: 100%;
@@ -13,9 +22,11 @@
 /* **navbar mobile** */
 
 nav {
+    width: 100%;
     display: flex;
     background-color: black;
-      border: 2px solid rgb(255, 77, 7);
+    border: 2px solid red;
+
 }
 
 
@@ -31,7 +42,8 @@ nav {
     width: 70%;
     border-bottom-right-radius: 20px;
     z-index: 1;
-      border: 2px solid red;
+    border: 2px solid red;
+
 }
 
 .menu {
@@ -138,7 +150,10 @@ i {
     margin-top: 20px;
     border: none;
 }
-
+.herobutton:focus{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+}
 
 /* ****our experties**** */
 
@@ -147,7 +162,7 @@ i {
     background-color: rgba(0, 0, 0, 0.877);
     display: flex;
     justify-content: space-around;
-  
+
 
 }
 
@@ -307,13 +322,14 @@ i {
     color: white;
     border-radius: 10px;
     border: none;
-
     display: block;
     margin: 0 auto;
-
-
 }
 
+.aboutusbtn:focus{
+    background-color: black;
+    color: white;
+}
 .aboutuslaptopview {
     display: none;
 }
@@ -653,7 +669,8 @@ footer {
         margin-top: 40px;
         align-self: self-start;
     }
-    button:hover{
+
+    button:hover {
         background-color: white;
         color: red;
     }
@@ -689,7 +706,8 @@ footer {
     .aboutusp2 {
         margin-top: 10px;
     }
-    .aboutsvgone{
+
+    .aboutsvgone {
         border: none;
     }
 
@@ -706,7 +724,7 @@ footer {
         display: flex;
         width: 100%;
     }
-   
+
 
     .box1 {
         width: 50%;
@@ -714,9 +732,10 @@ footer {
         display: flex;
         flex-direction: column;
     }
-    .box2{
-     width: 50%;
-    height: 100%;
+
+    .box2 {
+        width: 50%;
+        height: 100%;
     }
 
     .aboutuscounti {
@@ -752,8 +771,6 @@ footer {
 
     .planbtntext {
         color: rgba(240, 248, 255, 0.664);
-
-
     }
 
     .planbutton {
@@ -767,7 +784,23 @@ footer {
         padding-right: 10px;
         padding-left: 10px;
     }
-
+    .membershipplan{
+        width: 100%;
+    }
+    .plan{
+        width: 100%;
+    }
+    .planhead{
+        width: 25%;
+    }   
+    .planpara{
+        width: 25%;
+    }   
+    .price{
+        width: 25%;
+        display: flex;
+        justify-content: center;
+    }
 
     /* ****footer**** */
 
@@ -910,6 +943,7 @@ footer {
         padding: 15px;
         font-size: x-large;
     }
+
     .b {
         font-size: 25px;
     }
@@ -977,6 +1011,7 @@ footer {
         justify-content: center;
         align-items: center;
     }
+
 
     /* ****footer**** */
     .footer-bottom-bottom {

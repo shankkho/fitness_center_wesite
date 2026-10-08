@@ -4,6 +4,11 @@
     box-sizing: border-box;
     /* border: 2px solid red; */
 }
+/* all round */
+.btnstyle :focus{
+    color: red;
+    background-color: black;
+}
 
 .container {
     width: 100%;
